@@ -1,0 +1,43 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+        Current Projects
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+  <ion-content padding>
+    <ion-card 
+    (click)=onClickProject()>
+        <ion-item text-wrap style="font-size:25px">
+            Carpark Renovation
+          </ion-item>
+        <ion-card-content>
+          <p>The steel structure of the canopies is in a signi cant state of disrepair. Steel members show signs of advanced corrosion and often in critical areas...</p>
+        </ion-card-content>
+        <ion-row>
+          <ion-col>
+            <p style="padding:10px; color: #488aff">Vote by 5:00 PM 12/1/17</p>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      <ion-card
+      (click)=onClickProject()
+      >
+              <!-- limited letters -->
+              <ion-item text-wrap style="font-size:25px">
+                Perimeter Fence and Lighting
+              </ion-item>
+            <ion-card-content>
+              <p>The steel structure of the canopies is in a signi cant state of disrepair. Steel members show signs of advanced corrosion and often in critical areas...</p>
+            </ion-card-content>
+            <ion-row>
+              <ion-col>
+                <p style="padding:10px; color: #488aff">Vote by 5:00 PM 12/1/17</p>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+    </ion-content>
